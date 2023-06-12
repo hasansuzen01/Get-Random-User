@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerDiv{
+    display: flex;
+    justify-content: center;
+    background-color:#824dff ;
+    align-items: center;
+    height: 80px;
+}
+button{
+    margin-left: 715px;
+    margin-top: 50px;
+    width: 100px;
+    height: 40px;
+   background-color: #824dff;
+   color: white;
+   border-radius: 10px;
+   border: none;
+   cursor:pointer;
+}
+button:hover{
+    transform: scale(1.08);
+    transition: 0.8s;
+}
+.mainDiv{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainDiv li {
+    list-style-type: none;
+}
+.listDiv{
+    display: flex;
+    
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(62, 59, 59);
+    width: 600px;
+    border-radius: 20px;
+}
+img{
+    border-radius: 50%;
+}
+.showData{
+    padding: 20px;
+    margin: 20px;
+}
+.name{
+    margin-bottom: 10px;
+}
+.email{
+    margin-bottom: 10px;
+}
